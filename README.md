@@ -40,4 +40,9 @@ that you've understood the concept. Add your answer to this markdown file.
 ## Answer
 The best case is $\Theta$(n), because the inner for loop will never executed in an already sorted ascending order list. The worst case is $\Theta(n^2)$, which is a reverse sorted array and results in the action of both for loops every iteration, resulting in (n*n) ---> $(n^2)$ .
 
+I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.
+
 The best case is you do not make any moves in the list, and the worst case is that you move every item. It follows that the average case is a list where for each element you will have to move halfway through the list. You will still be activating the inner for loop, so to me it makes sense that the average case is $\Theta(n^2)$
